@@ -1,0 +1,231 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+p, h1, h2, h3 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    height: 100%;
+    background-color: #020202;
+    max-width: 1255px;
+}
+
+/*                              formatando as fotos
+*/
+
+#fotos {
+    position: relative;
+    width: 950px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+}
+
+#fotos li {
+    display: inline;
+    padding: 5px;
+}
+
+#fotos ul li img {
+    width: 250px;
+    height: 300px;
+}
+
+#fotos ul li img:hover {
+    width: 350px;
+    height: 450px;
+}
+
+
+/*                                formatando o cabeçalho
+*/
+
+header#cabecalho {
+    background: #020202 url("../imagens/camisaroxa.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 580px;
+}
+#apresentacao {
+    position: absolute;
+    width: 30%;
+    height: 16%;
+    margin: 15% 35%;
+    text-align: center;
+    padding: 5px;
+    line-height: 4em;
+}
+
+#apresentacao h1 {
+   font-size: 4em;
+   font-family: 'Cormorant Garamond', serif;
+   letter-spacing: 10px;
+
+}
+
+#apresentacao p {
+    margin-top: -20px;
+    font-size: 1.2em;
+}
+
+#conteudo-cabecalho {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#conteudo-cabecalho nav {
+    float: right;
+    width: 100%;
+    height: 5%;
+}
+
+ul#navegacao {
+    float: right;
+}
+
+ul#navegacao a:hover {
+    background-color: #603345;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header#cabecalho li {
+    display: inline;
+    padding: 5px 5px;
+    font-size: 1.2em;
+}
+
+/*                                    formatação do conteudo
+*/
+
+#principal {
+    color: springgreen;
+    width: 100%;
+    background-color: blue;
+    padding: 5px;
+}
+
+.contFoto {
+    width: 100%;
+}
+
+.conteudo {
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.conteudo h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.conteudo p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.fotocont {
+    float: left;
+    color: chartreuse;
+    width: 45%;
+}
+
+.fotocont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#redes {
+    padding-top: 80px;
+    background-color: #111111;
+    clear: both;
+}
+
+#redes h2 {
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 15px;
+}
+
+#redes p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#redes ul {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#redes li a img {
+    width: 150px;
+    margin: 20px;
+    transition: 1s;
+}
+
+#redes li a img:hover {
+    width: 200px;
+    margin: 20px;
+}
+
+#redes li {
+    display: inline;
+    
+}
+
+#parallax {
+    width: 100%;
+    height: 800px;
+    clear: both;
+    background-image: url(../imagens/tocandomesa.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*                                    formatação do rodapé
+*/
+
+#rodape {
+    text-align: center;
+    clear: both;
+    color: seashell;
+    padding: 50px;
+}
+
+#rodape nav {
+    border-top: 1px solid seashell;
+    border-bottom: 1px solid seashell;
+    padding: 20px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.naveg ul {
+   
+}
+
+.naveg li {
+    display: inline;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+ul.naveg a:hover {
+    background-color: #603345;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
