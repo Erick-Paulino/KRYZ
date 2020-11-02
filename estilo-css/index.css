@@ -15,7 +15,7 @@ a {
 body {
     height: 100%;
     background-color: #020202;
-    max-width: 1255px;
+    margin: 0px auto;
 }
 
 /*                              formatando as fotos
